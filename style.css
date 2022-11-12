@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Rajdhani:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body{
+    font-family:'Montserrat', sans-serif;
+    background-color: #000000;
+    text-align: center;
+}
+  .logo{
+  width: 80px;
+  height: 100px;
+  margin-left: 0px;
+  display: block;
+  position: absolute;
+}
+  h1{
+    font-size: 30px;
+    color: #e0b956;
+    margin-top: auto;
+  }
+  #banner{
+    height: 450px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 40px;
+  }
+  h2{
+    color:#e0b956;
+    text-align: center;
+    font-size: 30px;
+  }
+  h2 img{
+    display: inline-block;
+    margin-right: 15px;
+  }
+  p{
+    color:white;
+    margin: 20px;
+  }
+  #imgContainer {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%; /* o container de imagens ocupará toda a largura da tela*/
+    height: 400px; /* 400 pixels de altura */
+    overflow: hidden; /* esconde a parte da imagem que ultrapassar o tamanho ou a altura desse container*/
+  }
+  #imgContainer img {
+    /* adicionando efeitos para as imagens que estão dentro do container*/
+    width: 100%; /*ocupará toda a largura do container*/
+    height: 100%; /*ocupará toda a altura do container*/
+    display: inline-block; /* organiza as imagens em linha*/
+  }
+  footer h4{
+    margin-top: 20px;
+    color: white;
+    font-size: 16px;
+    font-weight: lighter;
+  }
